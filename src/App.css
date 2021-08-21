@@ -1,10 +1,11 @@
 .App {
-  text-align: center;
+  text-align: right;
+  color:DodgerBlue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  height: 50px;
+  width: 50px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -12,15 +13,17 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.back{
+
+.backimg{
   opacity: 80%;
-  height: 1000px;
-  width: 1920px;
+  height: 720px;
+  width: 1535px;
   position: absolute;
-
-
 }
 
+/* .container{
+
+} */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
