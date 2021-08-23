@@ -1,0 +1,105 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+.navbar{
+    position:fixed;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:100%;
+    z-index: 50;
+    background-color: black;
+    opacity:0.7;
+   
+  
+    
+   
+   
+   
+    
+   
+
+}
+.nav{
+   
+    display:flex;
+    justify-content: right;
+    list-style:none;
+    margin-right:2%;
+   
+}
+.mainlogo{
+    flex:auto;
+    margin-left: 42%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: bold;
+   
+
+
+
+}
+a{
+    margin:15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgb(249, 247, 246);
+    
+}
+a:hover{
+    color:rgb(210, 210, 36);
+}
+
+.home-space{
+    position:relative;
+    height:100vh;
+    width:100%;
+    background-size: cover;
+
+}
+.about-space,.destination-space,.tour-space,.contact-space{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction:row;
+    width:100%;
+    height: 700px;
+   background-image: url(img1.jpg);
+    background-size: cover;
+    color:rgb(2, 2, 14);
+
+
+}
+
+.footeer {
+    position:static;
+    width:100%;
+    height:4.85rem;
+    background-color: #2a2b2b;
+   
+   
+    margin-bottom: auto;
+    
+    color: #d2d6de;
+   
+    border-bottom: 3px solid #8e8e8f;
+    text-align: center;
+    padding: 95px;
+
+
+
+    
+}
+.footeer strong {
+    color:#f8f9fa;
+   
+    line-height:10rem;
+}
