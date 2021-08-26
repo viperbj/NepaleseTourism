@@ -3,8 +3,10 @@ import './smapp.css';
 export default function nav() {
     return (
         <>
-        <div className="navbar">
+       <div className="logobar">
             <a href="/"className="mainlogo">NEPAL TOURISM</a>
+            </div>
+            <div className="navbar">
             <ul className="nav">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
