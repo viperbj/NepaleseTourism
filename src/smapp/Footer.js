@@ -1,7 +1,13 @@
 import React from 'react'
 import "./smapp.css"
+import ModalRoot from './Modal/ModalRoot';
+import ModalService from './Modal/ModalService';
+import TestModal from './Modal/TestModal';
 
 export default function Footer() {
+  const addModal = () => {
+    ModalService.open(TestModal);
+  }
     return (
     <>
         {/* <!-- footer section --> */}
@@ -15,12 +21,11 @@ export default function Footer() {
 
                 <div className="textleft">
                   <h2>Nepalese Tourism</h2>
+
                   <div className="wow fadeInUp" data-wow-delay="0.3s">
-                    <p>“We, Nepalese Tourism desired to served many customers <br/>downtown Kathmandu Valley as well as all Nepal<br/> You can also be one of them.</p>
-                      
+                    <p>“We, Nepalese Tourism desired to served many customers <br/>downtown Kathmandu Valley as well as all Nepal<br/> You can also be one of them.</p> 
                   </div>
-               
-                    
+                  <ModalRoot /><button onClick={ addModal } className="btn btn-lg btn-success smoothScroll wow fadeInUp" >NOTIFY ME!</button>                    
                       <ul className="social-icon">
                         <li><a href="https://www.facebook.com/chakrafoundations" target="_blank" className="fab fa-facebook wow bounceIn" data-wow-delay="0.9s"></a></li>
                         <li><a href="https://twitter.com/" target="_blank" className="fab fa-twitter wow bounceIn" data-wow-delay="1.2s"></a></li>

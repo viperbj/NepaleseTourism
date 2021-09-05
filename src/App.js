@@ -9,11 +9,11 @@ function App() {
 
  <>
  
- <img src={nepalimg2} className="back" alt="Background image"></img>
- 
-<Nav/>
+      <img src={nepalimg2} className="back" alt="Background image"></img>
+    
+      <Nav />
 
-<Footer/>
+      <Footer />
 
 </>
 

@@ -70,6 +70,7 @@ a{
 a:hover{
     color:rgb(229, 237, 73);
     -webkit-transform: scale(1.1); 
+	text-decoration: none;	
 }
 
 .home-space{
@@ -78,7 +79,7 @@ a:hover{
     width:100%;
     background-size: cover;
 	padding-top: 30%;
-	padding-left: 35%;
+	padding-left: 40%;
 
    
 

@@ -1,7 +1,21 @@
-import React from 'react'
+
 import './smapp.css';
 import animal from './animal.jpg'
-export default function nav() {
+
+import React, { useState } from 'react';
+import ModalRoot from './Modal/ModalRoot';
+import ModalService from './Modal/ModalService';
+import TestModal from './Modal/TestModal';
+
+
+
+    
+export default function Nav() {
+    
+    const addModal = () => {
+        ModalService.open(TestModal);
+    }
+    
     return (
         <>
        <div className="logobar">
@@ -19,8 +33,8 @@ export default function nav() {
             </div>
            
         <div className="home-space" id="home">
+            <ModalRoot /><button onClick={ addModal } className="btn btn-lg btn-success smoothScroll wow fadeInUp" >NOTIFY ME!</button>
             <a href="#about" className="btn btn-lg btn-success smoothScroll wow fadeInUp" data-wow-delay="0.8s">Let's begin</a>
-        	<a href="#" data-toggle="modal" data-target="#modal1" className="btn btn-lg btn-success smoothScroll wow fadeInUp" data-wow-delay="1.0s">Notify me!</a>
         </div>
        
        <div className="about-space"id="about">
