@@ -1,7 +1,7 @@
 
 import './smapp.css';
 import animal from './animal.jpg'
-
+import img1 from './img1.jpg';
 import React, { useState } from 'react';
 import ModalRoot from './Modal/ModalRoot';
 import ModalService from './Modal/ModalService';
@@ -44,18 +44,94 @@ export default function Nav() {
            </div>
        </div>
        <div className="destination-space"id="destination">
-       <div className="text-part">
-               <h1>destination page</h1>
-               
+       <h1>destination</h1>
+           <h2>...</h2>
+       <div className="destinationgallery">
+       <img src={img1} ></img>
+       <img src={img1} ></img>
+       <img src={img1} ></img>
+       <img src={img1} ></img>
+       <img src={img1} ></img>
+       <img src={img1} ></img>
+       <img src={img1} ></img>
+       <img src={img1} ></img>
+       <img src={img1} ></img>
+       <img src={img1} ></img>
+
+
+        
            </div>
        </div>
        <div className="tour-space"id="tour">
            
-       <div className="text-part">
-               <h1>Tour page</h1>
-              
+       <h1>tour</h1>
+           <h2>...</h2>
+          
+           
+          
+           
+           <div className="tourimage">
+           <img src={img1} ></img>
+           
+<div className="tourtext">
+          
+           <h5>Pokhera</h5>
+           <p>hello hello hello </p>
+           <h6>Price:$4500</h6>
+          
+           
+        
+           <button type="button">explore</button>
+           
+           
+            </div>  
            </div>
-       </div>
+           <div className="tourimage">
+           <img src={img1} ></img>
+           <div className="tourtext">
+          
+           <h5>Pokhera</h5>
+           <p>hello hello hello </p>
+           
+          <h6>Price:$4500</h6>
+          
+           <button type="button">explore</button>
+           
+           
+           </div>   
+           </div>
+          
+           <div className="tourimage">
+           <img src={img1} ></img>
+           <div className="tourtext">
+          
+           <h5>Pokhera</h5>
+           <p>hello hello hello hello</p>
+          
+           
+          
+           <button type="button">explore</button>
+           
+           
+            </div>  
+           </div>
+           <div className="tourimage">
+           <img src={img1} ></img>
+           <div className="tourtext">
+          
+           <h5>Pokhera</h5>
+           <p>hello hello hello hello</p>
+          
+           
+          
+           <button type="button">explore</button>
+           
+           
+           </div>   
+           </div>
+
+           </div>
+      
        <div className="contact-space"id="contact">
        <div className="text-part">
        <>
